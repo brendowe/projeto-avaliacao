@@ -68,6 +68,11 @@ h1 {
     margin-bottom: 25px;
 }
 
+.comentarios li .resenha {
+    display: flex;
+    margin-top: -25px;
+}
+
 .comentarios img {
     border-radius: 50%;
     width: 50px;
