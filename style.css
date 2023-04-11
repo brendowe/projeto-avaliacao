@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: var(--fonte);
 }
 
 :root {
@@ -10,6 +13,7 @@
     --cor3: hsl(303, 10%, 53%);
     --cor4: hsl(300, 24%, 96%);
     --cor5: hsl(0, 0%, 100%);
+    --fonte: 'League Spartan', sans-serif;
 }
 
 main {
@@ -27,7 +31,7 @@ h1 {
 }
 
 .titulo p {
-    width: 290px;
+    width: 295px;
     margin: auto;
     padding-bottom: 40px;
     color: var(--cor3);
@@ -35,7 +39,7 @@ h1 {
 
 .medidor li {
     height: 70px;
-    width: 350px;
+    width: 330px;
     margin: auto;
     list-style-type: none;
     background-color: var(--cor4);
@@ -55,7 +59,7 @@ h1 {
 
 .comentarios li {
     background-color: var(--cor1);
-    width: 350px;
+    width: 330px;
     height: 300px;
     margin: auto;
     list-style-type: none;
@@ -71,6 +75,7 @@ h1 {
 }
 
 .perfil .verificado {
+    padding-top: 25px;
     color: var(--cor2);
 }
 
@@ -94,6 +99,9 @@ h1 {
     margin-right: 150px;
 }
 
-.resenha {
+.comentarios .resenha {
+    width: 250px;
     text-align: left;
+    font-size: 20px;
+    line-height: 22px;
 }
