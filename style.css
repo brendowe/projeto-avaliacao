@@ -110,3 +110,64 @@ h1 {
     font-size: 20px;
     line-height: 22px;
 }
+
+@media (min-width: 1400px) {
+
+    .geral {
+       display: flex;
+       flex-direction: row;
+    }
+
+    .titulo {
+        margin-left: 80px;
+    }
+
+    h1 {
+        font-size: 60px;
+        width: 390px;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .titulo p {
+        text-align: left;
+        font-size: 20px;
+        width: 500px;
+    }
+
+    .medidor {
+        margin-left: -170px;
+    }
+
+    .medidor li {
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        text-align: right;
+        width: 400px;
+    }
+
+    .medidor li p {
+        padding-left: 10px;
+    }
+
+    li img {
+        height: 25px;
+        padding: 4px;
+    }
+
+
+    .medidor .p1 {
+        margin-left: 300px;
+    }
+
+    .medidor .p2 {
+        margin-left: 400px;
+    }
+
+    .medidor .p3 {
+        margin-left: 500px;
+    }
+
+ 
+}
