@@ -169,5 +169,31 @@ h1 {
         margin-left: 500px;
     }
 
+    .comentarios {
+        display: flex;
+        margin: auto;
+    }
+
+    .comentarios li {
+        margin: 20px;
+        height: 200px;
+        padding-bottom: 200px;
+    }
+
+    .comentarios li img {
+        height: 50px;
+    }
+
+    .comentarios .resenha {
+        font-size: 14px;
+    }
+
+    .comentarios .comen2 {
+        margin-top: 40px;
+    }
+
+    .comentarios .comen3 {
+        margin-top: 80px;
+    }
  
 }
